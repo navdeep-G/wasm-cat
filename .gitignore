@@ -1,5 +1,9 @@
 # JS
 node_modules
+*.js
+
+#Wasm
+*.wasm
 
 # Prerequisites
 *.d
