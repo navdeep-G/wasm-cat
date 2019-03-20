@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>C++ WASM Demo</title>
+</head>
+<body>
+  <span style="font-size: 50px;">🐈</span>
+  <button id="hi">Dis bonjour</button>
+  <button id="meow">Meow (console)</button>
+  <script src="/cat.js"></script>
+  <script>
+    Module.addOnPostRun(() => {
+      const cat = new Module.Cat('Amélie')
+      hi.onclick = () => alert(cat.getGreeting())
+      meow.onclick = () => cat.makeSound()
+    })
+  </script>
+</body>
+</html>

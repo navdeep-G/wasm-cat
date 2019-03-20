@@ -1,0 +1,17 @@
+{
+  "name": "wasm-cat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Navdeep Gill <mr.navdeepgill@gmail.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navdeep-G/wasm-cat"
+  },
+  "scripts": {
+    "start": "sh ./run.sh && http-server ."
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
