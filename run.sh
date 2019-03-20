@@ -2,6 +2,7 @@
 
 url="http://localhost:8080"
 
+# Path to emsdk repo...
 source ../emsdk/emsdk_set_env.sh 
 
 emcc --bind -Oz cat.cc -o cat.js \
