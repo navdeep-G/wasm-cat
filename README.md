@@ -1,4 +1,4 @@
-# C++ WebAssembly Demo (wasm-cat)
+# C++ WebAssembly Demo
 
 * Import and instantiate `C++` classes in a browser. 
 * Ensure you have the Emscripten toolchain installed.
